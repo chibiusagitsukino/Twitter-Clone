@@ -1,0 +1,15 @@
+.Footer {
+  background-color: #15202b;
+  color: #ffffff;
+  display: flex;
+
+  height: 4rem;
+}
+
+.Footer ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

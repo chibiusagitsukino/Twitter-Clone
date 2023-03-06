@@ -1,0 +1,15 @@
+.SideMenu {
+  padding: 0 30px;
+  font-size: 0.9rem;
+}
+
+.SideMenu ul li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.SideMenu ul li img {
+  width: 25px;
+  height: 25px;
+}
