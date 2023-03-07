@@ -1,3 +1,8 @@
+.Header {
+  display: flex;
+  flex-direction: column;
+}
+
 .Header__up {
   display: flex;
   justify-content: space-between;
@@ -8,20 +13,16 @@
   font-weight: bold;
   background-color: #ffffff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid #1da1f2;
+  border-bottom: 1px solid #ccc;
 }
 
-ul {
+.Header__up__ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
   gap: 20px;
 }
-
-/* li {
-  list-style-position: none;
-} */
 
 .Header__up img {
   height: 25px;
@@ -59,4 +60,10 @@ ul {
   height: 25px;
   height: 25px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+  .Header__hamburger {
+    display: none;
+  }
 }

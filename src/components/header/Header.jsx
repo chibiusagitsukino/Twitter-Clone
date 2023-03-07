@@ -1,19 +1,28 @@
 import './index.css'
-import SideMenu from '../SideMenu'
+import HamburgerMenu from '../hamburgerMenu'
+import { useState } from 'react'
 
 const Header = () => {
+  const [showMenu, setShowMenu] = useState(false)
+
+  const hamburgerTrigger = () => {
+    setShowMenu(!showMenu) /* funziona come un toggle */
+  }
+
   return (
     <div className='Header'>
       <div className='Header__up'>
         <nav>
-          <ul>
+          <ul className='Header__up__ul'>
             <li>
               <img
                 src='https://img.icons8.com/external-tal-revivo-filled-tal-revivo/256/external-mobile-application-hamburger-menu-setting-interface-basic-filled-tal-revivo.png'
                 alt='hamburger'
+                className='Header__hamburger'
+                onClick={hamburgerTrigger}
               />
             </li>
-            {/* <SideMenu /> */}
+            <HamburgerMenu showMenu={showMenu} />
             <li>
               <img
                 src='https://img.icons8.com/color/256/twitter--v1.png'

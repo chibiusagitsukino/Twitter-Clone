@@ -1,14 +1,14 @@
-import Header from './components/Header'
 import Content from './components/Content'
-import Footer from './components/Footer'
+import SideMenu from './components/sideMenu'
+import SideTrends from './components/sideTrends'
 import './App.css'
 
 function App() {
   return (
     <div className='App'>
-      <Header />
+      <SideMenu />
       <Content />
-      <Footer />
+      <SideTrends />
     </div>
   )
 }

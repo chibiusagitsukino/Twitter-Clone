@@ -12,18 +12,21 @@ const MessageItem = ({ messageData }) => {
         <p>{body}</p>
         <div className='MessageItem__content--icons'>
           <img
-            src='https://img.icons8.com/external-those-icons-lineal-those-icons/256/external-Chat-Bubble-messages-and-chat-those-icons-lineal-those-icons-10.png'
-            alt='chat'
+            src='https://img.icons8.com/small/256/twitter-reply.png'
+            alt='reply'
           />
           <img
-            src='https://img.icons8.com/material-sharp/256/sorting-arrows-horizontal.png'
-            alt='arrow'
+            src='https://img.icons8.com/material-outlined/256/retweet.png'
+            alt='retwit'
           />
           <img
             src='https://img.icons8.com/ios-glyphs/256/hearts.png'
             alt='heart'
           />
-          <img src='https://img.icons8.com/ios/256/upload.png' alt='upload' />
+          <img
+            src='https://img.icons8.com/fluency-systems-regular/256/share.png'
+            alt='share'
+          />
         </div>
       </div>
     </div>

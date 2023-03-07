@@ -1,12 +1,14 @@
-import Header from '../header'
-import MessageList from '../dashboard'
+import Header from '../Header'
+import Footer from '../Footer'
+import Dashboard from '../dashboard'
 import './index.css'
 
 const Content = () => {
   return (
     <div className='Content'>
-      {/* <Header /> */}
-      <MessageList />
+      <Header />
+      <Dashboard />
+      <Footer />
     </div>
   )
 }

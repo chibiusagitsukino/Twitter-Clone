@@ -1,15 +1,29 @@
 .Footer {
-  background-color: #15202b;
-  color: #ffffff;
+  background-color: #fff;
   display: flex;
-
   height: 4rem;
 }
 
 .Footer ul {
-  text-decoration: none;
+  list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+.Footer ul li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+}
+
+.Footer ul li:hover {
+  color: #01b5f1;
+}
+
+.Footer ul li img {
+  width: 25px;
+  height: 25px;
 }
