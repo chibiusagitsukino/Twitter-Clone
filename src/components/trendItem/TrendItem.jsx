@@ -3,9 +3,9 @@ import './index.css'
 const TrendItem = ({ data }) => {
   return (
     <div>
-      <h5>{data.subTitle}</h5>
-      <h3>{data.title}</h3>
-      <h7>{data.text}</h7>
+      <h4>{data.title}</h4>
+      <h3>{data.subTitle}</h3>
+      <h5>{data.text}</h5>
     </div>
   )
 }
