@@ -36,7 +36,7 @@ const MenuContent = () => {
       </li>
       <li>
         <img
-          src='https://img.icons8.com/external-flaticons-lineal-color-flat-icons/256/external-friends-online-marketing-flaticons-lineal-color-flat-icons.png'
+          src='https://img.icons8.com/office/256/twitter-circled--v1.png'
           alt='Twitter Circle'
         />
         <p>Twitter Circle</p>

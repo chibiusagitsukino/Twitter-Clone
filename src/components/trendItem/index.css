@@ -1,0 +1,15 @@
+.TrendItem {
+  margin: 40px;
+}
+
+.TrendItem h4 {
+  color: #8d8d8d;
+}
+
+.TrendItem h3 {
+  color: #333;
+}
+
+.TrendItem h5 {
+  color: #ccc;
+}

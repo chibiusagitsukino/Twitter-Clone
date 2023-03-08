@@ -4,6 +4,10 @@
   display: none;
 }
 
+h2 {
+  margin-left: 40px;
+}
+
 /* ATTENZIONE AL MOBILE FIRST */
 @media screen and (min-width: 800px) {
   .SideTrends {

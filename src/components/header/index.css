@@ -30,6 +30,10 @@
   cursor: pointer;
 }
 
+.sparkles {
+  color: #01b5f1;
+}
+
 .Header__down {
   display: flex;
   align-items: center;

@@ -31,6 +31,7 @@ const Header = () => {
             </li>
             <li>
               <img
+                className='sparkles'
                 src='https://img.icons8.com/ios/256/sparkling.png'
                 alt='sparkles'
               />

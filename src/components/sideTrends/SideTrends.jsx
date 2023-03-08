@@ -1,10 +1,12 @@
+import SearchTrends from '../searchTrends'
 import TrendList from '../trendList'
 import './index.css'
 
 const SideTrends = () => {
   return (
     <div className='SideTrends'>
-      <h2>Tendenze per te</h2>
+      <SearchTrends />
+      <h2>Trends for you</h2>
       <TrendList />
     </div>
   )
