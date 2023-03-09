@@ -1,7 +1,11 @@
 .SideTrends {
+  position: absolute;
   border-left: 1px solid lightgrey;
-  width: 30%;
+  width: 28%;
   display: none;
+  right: 0;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 h2 {

@@ -1,9 +1,19 @@
+// Esercizio 09-03-2023 - useRef
+/* La mia intenzione era quella di utilizzare l'hook useRef 
+  per ottenere il riferimento all'elemento input 
+  e impostare il focus su di esso quando la pagina viene caricata.*/
+
 import './index.css'
 import HamburgerMenu from '../hamburgerMenu'
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false)
+  const inputRef = useRef(null)
+
+  useEffect(() => {
+    inputRef.current.focus()
+  }, [])
 
   const hamburgerTrigger = () => {
     setShowMenu(!showMenu) /* funziona come un toggle */
@@ -45,7 +55,7 @@ const Header = () => {
           src='https://img.icons8.com/ultraviolet/256/user.png'
           alt='profilo'
         />
-        <input type='text' placeholder="What's happening?" />
+        <input type='text' placeholder="What's happening?" ref={inputRef} />
         <img src='https://img.icons8.com/fluency/256/image.png' alt='image' />
         <img src='https://img.icons8.com/arcade/256/gif.png' alt='gif' />
         <img
